@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56586C661BB120BA00D4856C /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56586C651BB120BA00D4856C /* MainTabViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		56ABCB0A1BB0FCC600E3749A /* KnowTheLaws.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56ABCB081BB0FCC600E3749A /* KnowTheLaws.xcdatamodeld */; };
 		56ABCB0C1BB0FCC600E3749A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56ABCB0B1BB0FCC600E3749A /* Assets.xcassets */; };
 		56ABCB1A1BB0FCC600E3749A /* KnowTheLawsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ABCB191BB0FCC600E3749A /* KnowTheLawsTests.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56586C651BB120BA00D4856C /* MainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
 		56ABCAFE1BB0FCC600E3749A /* KnowTheLaws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnowTheLaws.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56ABCB091BB0FCC600E3749A /* KnowTheLaws.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KnowTheLaws.xcdatamodel; sourceTree = "<group>"; };
 		56ABCB0B1BB0FCC600E3749A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 		56ABCB341BB0FD5C00E3749A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				56586C651BB120BA00D4856C /* MainTabViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			files = (
 				56ABCB3A1BB0FD5C00E3749A /* AppDelegate.swift in Sources */,
 				56ABCB0A1BB0FCC600E3749A /* KnowTheLaws.xcdatamodeld in Sources */,
+				56586C661BB120BA00D4856C /* MainTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +519,7 @@
 				56ABCB2B1BB0FCC700E3749A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56ABCB2C1BB0FCC700E3749A /* Build configuration list for PBXNativeTarget "KnowTheLawsTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				56ABCB2E1BB0FCC700E3749A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56ABCB2F1BB0FCC700E3749A /* Build configuration list for PBXNativeTarget "KnowTheLawsUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +537,7 @@
 				56ABCB311BB0FCC700E3749A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
